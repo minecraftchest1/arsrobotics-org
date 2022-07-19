@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://blog.arsrobotics.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 28 Apr 2022 00:00:00 -0500</lastBuildDate><atom:link href="http://blog.arsrobotics.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023&#39;s Theme</title>
+      <link>http://blog.arsrobotics.org/2022/04/28/2023s-theme/</link>
+      <pubDate>Thu, 28 Apr 2022 00:00:00 -0500</pubDate>
+      
+      <guid>http://blog.arsrobotics.org/2022/04/28/2023s-theme/</guid>
+      <description>Saturday at the world championships, the theme for 2023’s competitions was announced. This theme covers all programs by FIRST. The promo video is down below or at https://youtu.be/m-qwsMmkFwg.</description>
+    </item>
+    
+    <item>
+      <title>Regionals day 1 [4/7/2022]</title>
+      <link>http://blog.arsrobotics.org/2022/04/07/regionals-day-1-4/7/2022/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 -0500</pubDate>
+      
+      <guid>http://blog.arsrobotics.org/2022/04/07/regionals-day-1-4/7/2022/</guid>
+      <description>Today is the first of three days at the Huntsville City Regionals. We got our pit setup yesterday. Today we did some finishing touches on the robot. We will be updating this post throughout the day.
+Pits We got to see some cool pits. Here are some pictures.
+Visits We also had some teams come visit us.
+(We are unable to recover this image for some reason).
+Team pictures We got quite a few pictures of our team.</description>
+    </item>
+    
+    <item>
+      <title>Status Update [4/6/2022]</title>
+      <link>http://blog.arsrobotics.org/2022/04/07/status-update-4/6/2022/</link>
+      <pubDate>Thu, 07 Apr 2022 00:00:00 -0500</pubDate>
+      
+      <guid>http://blog.arsrobotics.org/2022/04/07/status-update-4/6/2022/</guid>
+      <description>Here is our third status update, and possibly the last one for a while. Yesterday was our last build meeting, although we may do a bit more work before the practice matches and the competition Thursday-Saturday.
+What we got done Programming. I think the code has been done for a bit, however, I think there has been a few improvements just making the code better overall. Battery mount. For the longest time, we just sat the battery next to the robot when testing.</description>
+    </item>
+    
+    <item>
+      <title>Status Update [4/4/2022]</title>
+      <link>http://blog.arsrobotics.org/2022/04/05/status-update-4/4/2022/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 -0500</pubDate>
+      
+      <guid>http://blog.arsrobotics.org/2022/04/05/status-update-4/4/2022/</guid>
+      <description>Here is our second status update. It has been a bit since I posted one because I haven’t been to a build meeting since I got the blog back up until today.
+What we got done Mounted Shooter. The shooter is now on the robot. We currently do not have a reliable way of getting the shooter. Fold up intake. As the intake reaches out beyond the robot perimeter, we had to work on a way to fold the intake up, but also to be able to lower it at the start of the match.</description>
+    </item>
+    
+    <item>
+      <title>Main Site Down</title>
+      <link>http://blog.arsrobotics.org/2022/04/03/main-site-down/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 -0500</pubDate>
+      
+      <guid>http://blog.arsrobotics.org/2022/04/03/main-site-down/</guid>
+      <description>EDIT: The site is back up. see the thread at https://social.opendesktop.org/@minecraftchest1/108069247184225392 for more details.
+I broke the site again (yes, I know I need to stop doing that). This time, it is the main page (arsrobotics.org) that is down. I was trying to point the root domain to our WordPress installation, and now the Domain does not resolve.
+What broke exactly? When changing DNS records in Cloudflare, I managed to get to the point where Cloudflare is giving an empty response from their DNS servers.</description>
+    </item>
+    
+    <item>
+      <title>Our Blog is Back Up Again!</title>
+      <link>http://blog.arsrobotics.org/2022/04/03/our-blog-is-back-up-again/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 -0500</pubDate>
+      
+      <guid>http://blog.arsrobotics.org/2022/04/03/our-blog-is-back-up-again/</guid>
+      <description>For the last two weeks, our blog has been down. This was because of some issues we have had with our WordPress host (it was my fault, sort of). The issue came down to me running an Ansible playbook against our VM in Azure. Somehow, this messed something up so that the VM couldn’t boot. Long story short, we now have WordPress running on a Raspberry Pi 3 in my home, with Cloudflare tunnels used to make the site accessible.</description>
+    </item>
+    
+    <item>
+      <title>We Are on the Fediverse!</title>
+      <link>http://blog.arsrobotics.org/2022/03/18/we-are-on-the-fediverse/</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 -0500</pubDate>
+      
+      <guid>http://blog.arsrobotics.org/2022/03/18/we-are-on-the-fediverse/</guid>
+      <description>Note: This is a repost from our old blog. The content of this post is not accurate at the time of reposting.
+I have set this blog up today with the activitypub plugin for WordPress. With this plugin, WordPress now acts as an activitypub node. This means you can follow our blog from Mastodon, Pleroma, Friendica, HubZilla, Pixelfed, SocialHome, and Misskey (at least according to the plugins page).
+I do use the phrase “follow our blog” lightly as currently, there is no way to follow our entire blog from one account (see pfefferle/wordpress-activitypub#100).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+{{ if .IsNamedParams }}
+<video
+	{{ with .Get "width" }} width="{{ . }}"{{ end }}
+	{{ with .Get "height" }} height="{{ . }}"{{ end }}
+	{{ with .Get "src" }} src="{{ . }}"{{ end }}
+	{{ with .Get "poster" }} poster="{{ . }}"{{ end }}
+	{{ with .Get "preload" }} preload="{{ . }}"{{ end }}
+	{{ with .Get "controls" }} controls="{{ . }}"{{ end }}
+	{{ with .Get "autoplay" }} autoplay="{{ . }}"{{ end }}
+/>
+{{ else }}
+<video src="{{ .Get 0 }}"/>
+{{ end }}
+

@@ -1,0 +1,39 @@
+baseURL = 'http://blog.arsrobotics.org'
+title = 'ARS Robotics Blog'
+theme= 'arsrobotics'
+enableGitInfo = true
+languageCode = "en-US"
+relativeURLs = true
+#timeZone = "America/Chicago"
+
+[params]
+	dateFormat = "Jan 2, 2006"
+
+[permalinks]
+	posts = ':year/:month/:day/:slug'
+
+[taxonomies]
+  category = 'category'
+  tag = 'tags'
+
+[menu]
+[[menu.main]]
+	identifier = 'main'
+	name = 'Main Site'
+	url = 'https://arsrobotics.org'
+	weight = 1
+[[menu.main]]
+	identifier = 'blog'
+	name = 'Blog'
+	url = 'https://blog.arsrobotics.org'
+	weight = 2
+[[menu.main]]
+	identifier = 'contact'
+	name = 'Contact Us'
+	url = 'https://arsrobotics.org/contact-us/'
+	weight = 3
+[[menu.main]]
+	identifier = 'sponsor'
+	name = 'sponsor Us'
+	url = 'https://arsrobotics.org/sponsor-us/'
+	weight = 4
