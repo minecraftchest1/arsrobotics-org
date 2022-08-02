@@ -8,9 +8,13 @@ relativeURLs = true
 
 [params]
 	dateFormat = "Jan 2, 2006"
+	subtitle = "If it's worth doing once, it's worth doing again."
+	mainSections = ["post","posts"]
+	
 
 [permalinks]
 	posts = ':year/:month/:day/:slug'
+	pages = '/:slug'
 
 [taxonomies]
   category = 'category'

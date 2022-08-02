@@ -1,5 +1,6 @@
 ---
 title: "Sponsor Us"
+slug: 'sponsor-us'
 ---
 Saturday at the world championships, the theme for 2023’s competitions was announced. This theme covers all programs by FIRST. The promo video is down below or at [https://youtu.be/m-qwsMmkFwg](https://youtu.be/m-qwsMmkFwg).
 
